@@ -20,3 +20,12 @@ body {
     height: 200px;
 }
 
+.container {
+     max-width: 800px;
+    color: #3c3b3e;
+    margin: 0 auto;
+    font-family: Sans-serif;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

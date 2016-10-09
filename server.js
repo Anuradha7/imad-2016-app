@@ -15,15 +15,7 @@ var articles = {
                     This is article-one.This is article-one.This is article-one.This is article-one.
                     This is article-one.This is article-one.This is article-one.This is article-one.</p>
                     
-                    <p>This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.</p>
-                    
-                    <p>This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.
-                    This is article-one.This is article-one.This is article-one.This is article-one.</p>`
+                    <p>This is article-one.This is article-one.This is article-one.</p>`
     
     },
     'article-two':{
@@ -87,6 +79,10 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
+
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 
